@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <link rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Pribadi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Halo, Saya Syifa Nur Ardianie</h1>
+  </header>
+  <main>
+    <img src="fotoss.jpeg" alt="Foto Profil" width="150">
+    <p id="tanggal" style="margin-top: 20px; font-weight: bold;"></p>
+
+<button onclick="toggleDarkMode()">Ubah Tema</button>
+
+<div style="margin-top: 30px;">
+  <a href="https://instagram.com/4rdnsyf" target="_blank" style="margin-right: 10px;">
+    <i class="fab fa-instagram fa-2x" style="color:#6a0dad;"></i>
+  </a>
+  <a href="mailto:syifa.ardianie@example.com">
+    <i class="fas fa-envelope fa-2x" style="color:#6a0dad;"></i>
+  </a>
+</div>
+
+    <section id="biodata">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah mahasiswi jurusan Teknik Informatika yang antusias belajar teknologi web dan pemrograman. Saya suka mempelajari hal baru, bekerja secara tim, dan mengeksplorasi desain UI/UX.</p>
+
+      <h2>Keahlian</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript Dasar</li>
+        <li>PHP & MySQL</li>
+        <li>UI/UX Design (Figma)</li>
+        <li>Git & GitHub</li>
+      </ul>
+
+      <h2>Kontak</h2>
+      <p>Email: syifanrdianie@gmail.com</p>
+      <p>Instagram: @4rdnsyf</p>
+      <p>WhatsApp: 0813***</p>
+    </section>
+
+    <button onclick="toggleBiodata()">Tampilkan/Sembunyikan Biodata</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
